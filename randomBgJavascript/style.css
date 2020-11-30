@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Overpass',sans-serif;
+    min-height: 100vh;
+}
+header{
+    size: 1.5rem;
+}
+header,.change-bg,.output-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+.bg-button{
+    padding: 0.5rem;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+    background: rgb(0,0,0);
+    color: rgb(255,255,255);
+    transition: all 0.3s ease;
+}
+.bg-button:hover{
+    color: black;
+    background: white;
+    
+}
+.button-text{
+    font-family: 'Overpass' ,sans-serif;
+}
+.fa-brush{
+    pointer-events: none;
+}
